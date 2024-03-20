@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;1,100&display=swap');
+body {
+    
+    background-color: #ddd2ad;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/*Start header*/
+header{
+    background-color: #b49062;
+}
+nav{
+    /*border: 2px solid white;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    /*border: 2px solid white;*/
+    /*width: 300px;*/
+    align-items: center;
+    margin-left: 15px;
+
+   
+}
+.h1-title{
+    margin-left: 10px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.menu{
+    /*border: 2px solid white;*/
+    /*background-color: #7795cf;*/
+    display: flex;
+    list-style: none;
+   /*width: 500px;*/
+    
+}
+li{
+    margin-right: 15px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.main-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+
+}
+.box {
+    background-color: white;
+    padding: 20px;
+    margin: 30px 0px;
+}
+.image {
+    width: 100%;
+}
+.button{
+    color: #ffffff;
+    background-color: #b49062;
+    padding: 8px 24px;
+    border-radius:  30px;
+    display: inline-block;
+}
+.text-param {
+    font-weight: 100;
+}
+/*End haeder*/
+/*Start Footer*/
+footer{
+    background-color: #b49062;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
+/*End Footer */
