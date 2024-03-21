@@ -1,0 +1,29 @@
+body {
+    
+    background-color: #e2d9bb;
+    padding-right: 20%;
+    padding-left: 20%
+    
+}
+header{
+    background-color: #b49062;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div {
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+li {
+    padding-right: 50px;
+    padding-left: 50px;
+}
